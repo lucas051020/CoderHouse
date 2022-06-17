@@ -201,7 +201,6 @@ footer{
 div img{
 	margin: 5rem;
 	width: 100rem;
-	height: 40rem;
 }
 
 
@@ -299,8 +298,8 @@ main{
 
 h2{
 	color: white;
-	font-size: 3rem;
 	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
 	margin: 5rem;
 	margin-left: 10rem;
 }
@@ -334,6 +333,12 @@ fieldset textarea{
 
 fieldset input{
 	margin: 1rem;
+}
+
+.transform:hover{
+	transform: translate(3px);
+	cursor: pointer;
+	transition: 2s;
 }
 
 
